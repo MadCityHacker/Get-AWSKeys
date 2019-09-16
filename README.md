@@ -14,11 +14,11 @@ Parameters
 
 Examples
 --------
-`Get-AWSKeys.ps1 -ComputerName localhost`
-	Check the local system for the existence of the AWS credentials file and CSVs named credentials.csv.
+`Get-AWSKeys.ps1 -ComputerName localhost`  
+Check the local system for the existence of the AWS credentials file and CSVs named credentials.csv.
 
-`Get-AWSKeys.ps1 -File Computers.txt -AllCSV`
-	Check all computers listed in "Computers.txt" for the existence of the AWS credentials file and all CSVs in each user's Documents, Downloads, and Desktop folders.
+`Get-AWSKeys.ps1 -File Computers.txt -AllCSV`  
+Check all computers listed in "Computers.txt" for the existence of the AWS credentials file and all CSVs in each user's Documents, Downloads, and Desktop folders.
 
 Licensing
 ---------
